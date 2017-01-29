@@ -3,4 +3,17 @@
     Change name
   </button>
   <h2 class="display-2">Hello {{name}}</h2>
+
+  <div class="container" id="testFormContainer">
+    <div class="col-sm-4" style="margin-bottom: 50px;">
+      <h1>Great Form</h1>
+      <form id="testForm">
+        <div class="form-group">
+          <label>Name</label>
+          <input class="form-control" type="text" id="fpUserName" />
+        </div>
+        <button type="button" class="btn btn-default" (click)="changeName('Tralala')">Test button</button>
+      </form>
+  </div>
+
 </div>
