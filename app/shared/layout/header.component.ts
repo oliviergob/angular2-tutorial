@@ -9,6 +9,7 @@ export class HeaderComponent {
   constructor() {}
 
   name: string = 'Angular2';
+  loggedIn: boolean = false;
 
    // name: string = 'Angular2';
   @Input() name: string;
